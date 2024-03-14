@@ -1,22 +1,5 @@
 import 'dart:async';
 
-class Pesanan {
-  String _idPesanan;
-  String _namaPesanan;
-  int _jumlahPesanan;
-
-  String get idPesanan => _idPesanan;
-  set idPesanan(String value) => _idPesanan = value;
-
-  String get namaPesanan => _namaPesanan;
-  set namaPesanan(String value) => _namaPesanan = value;
-
-  int get jumlahPesanan => _jumlahPesanan;
-  set jumlahPesanan(int value) => _jumlahPesanan = value;
-
-  Pesanan(this._idPesanan, this._namaPesanan, this._jumlahPesanan);
-}
-
 class Menu {
   String _idMenu;
   String _namaMenu;
